@@ -1,0 +1,65 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx",
+    ".ts",
+    ".tsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/src/index.tsx",
+  "plugins": [
+    "react-static-plugin-typescript",
+    [
+      "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/src/pages"
+      }
+    ],
+    "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter"
+  ],
+  "paths": {
+    "ROOT": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter",
+    "SRC": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/src",
+    "DIST": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/dist",
+    "ASSETS": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/dist",
+    "PLUGINS": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/plugins",
+    "TEMP": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/tmp",
+    "ARTIFACTS": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/artifacts",
+    "PUBLIC": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/public",
+    "NODE_MODULES": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/node_modules",
+    "EXCLUDE_MODULES": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/node_modules",
+    "PACKAGE": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/package.json",
+    "HTML_TEMPLATE": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/dist/index.html",
+    "STATIC_DATA": "/Users/devanhuapaya/Documents/Projects/genui-react-starter/genui-react-static-starter/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
